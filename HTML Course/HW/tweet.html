@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+
+    <style>
+      .dp {
+        vertical-align: middle;
+        margin-top: 5px;
+        display: inline-block;
+        margin-bottom: 5px;
+      }
+      .levi {
+        width: 25px;
+        border-radius: 12.5px;
+        margin-left: 1px;
+      }
+      .post {
+        vertical-align: middle;
+        border-width: 0.15px;
+        border-color: rgb(226, 226, 226);
+        border-style: solid;
+        border-radius: 30px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        padding-left: 4px;
+        padding-right: 4px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        height: 6px;
+        width: 100px;
+        font-size: 5.5px;
+      }
+      .Tweet {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 12px;
+        margin-top: 5px;
+        margin-bottom: 15px;
+      }
+      .button {
+        background-color: rgb(0, 157, 255);
+        color: white;
+        font-size: 7px;
+        font-weight: bold;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 20px;
+        padding-left: 6px;
+        padding-right: 6px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        transition: opacity 0.15s, box-shadow 0.15s;
+      }
+      .button:hover {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+      }
+      .button:active {
+        opacity: 0.7;
+      }
+      .encase {
+        display: inline-block;
+        border-width: 1px;
+        border-color: rgb(226, 226, 226);
+        border-radius: 5px;
+        padding-left: 6px;
+        padding-right: 7.5px;
+        padding-top: 3px;
+        padding-bottom: 1.5px;
+        box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="encase">
+      <div class="dp">
+        <img class="levi" src="/image/Levi.png" alt="" />
+      </div>
+
+      <input class="post" type="text" placeholder="What's happening?" />
+
+      <div class="Tweet">
+        <button class="button">Tweet</button>
+      </div>
+    </div>
+  </body>
+</html>

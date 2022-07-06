@@ -1,0 +1,161 @@
+
+  .header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+  }
+  .leftsec {
+    display: flex;
+    align-items: center;
+  }
+  .middlesec {
+    margin-right: 35px;
+    margin-left: 70px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .rightsec {
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  .searchbar {
+    font-size: 16px;
+    flex: 1;
+    height: 36px; 
+    padding-left: 10px;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    outline: none;
+    width: 0px;
+  }
+  .searchbar::placeholder {
+    font-family: Roboto, Arial;
+    font-size: 16px;
+  }
+  .menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 20px;
+  }
+  .ytlogo {
+    height: 20px;
+  }
+  .searchbutton {
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    margin-left: -1px;
+  }
+  .searchicon {
+    height: 25px;
+  }
+  .mic {
+    height: 24px;
+  }
+  .micbutton {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: rgb(246, 246, 246);
+  }
+  .cam {
+    height: 24px;
+    width: 24px;
+    margin-top: 4px;
+  }
+  .app {
+    height: 24px;
+    width: 24px;
+    margin-top: 4px;
+  }
+  .bell {
+    height: 24px;
+    width: 24px;
+    margin-top: 4px;
+  }
+  .notif {
+    position: relative;
+  }
+  .count {
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    color: white;
+    background-color: rgb(200, 0, 0);
+    font-size: 11px;
+    font-family: Roboto, Arial;
+    padding-left: 5.5px;
+    padding-right: 5.5px;
+    padding-top: 2px;
+    padding-bottom: 1.7px;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .mychannel {
+    height: 32px;
+    width: 32px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+  .searchbutton, .micbutton, .create, .ytapps, .notif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .searchbutton .tooltip,
+  .micbutton .tooltip,
+  .create .tooltip,
+  .ytapps .tooltip,
+  .notif .tooltip {
+    position: absolute;
+    bottom: -25px;
+    background-color: gray;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    
+  }
+  .searchbutton:hover .tooltip,
+  .micbutton:hover .tooltip,
+  .create:hover .tooltip,
+  .ytapps:hover .tooltip,
+  .notif:hover .tooltip{
+    opacity: 1;
+  }
+
+

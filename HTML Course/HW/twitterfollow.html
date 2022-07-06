@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      p {
+        font-family: Roboto, Arial;
+        margin-top: 0px;
+      }
+      .dp {
+        display: inline-block;
+        width: 40px;
+        vertical-align: middle;
+        margin-right: 4px;
+      }
+      .text {
+        display: inline-block;
+        width: 170px;
+        vertical-align: top;
+        margin-top: 0px;
+      }
+      .Levi {
+        width: 34px;
+        border-radius: 17px;
+        margin-top: 0.75px;
+        margin-bottom: 10px;
+      }
+      .name {
+        font-weight: bold;
+        font-size: 10px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+      }
+      .about,
+      .status {
+        font-size: 6px;
+        color: rgb(96, 96, 96);
+        margin-bottom: 3px;
+      }
+      .about {
+        font-size: 7px;
+      }
+      .button {
+        background-color: rgb(0, 157, 255);
+        color: white;
+        font-size: 7px;
+        font-weight: bold;
+        border: none;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 2px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        transition: opacity 0.15s, box-shadow 0.15s;
+      }
+      .button:hover {
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+      }
+      .button:active {
+        opacity: 0.7;
+      }
+      .follow {
+        display: inline-block;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dp">
+      <img class="Levi" src="/image/Levi.png" alt="" />
+    </div>
+
+    <div class="text">
+      <p class="name">Captain Levi Ackermann</p>
+      <p class="about">Humanity's Strongest Soldier</p>
+      <p class="status">Popular</p>
+    </div>
+    <div class="follow">
+      <button class="button">Follow</button>
+    </div>
+  </body>
+</html>

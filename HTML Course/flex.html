@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex</title>
+  </head>
+  <body style="padding-bottom: 1000px">
+    <div style="display: Flex; flex-direction: row">
+      <div style="background-color: aquamarine; width: 100px">div1</div>
+      <div style="background-color: lightcoral; flex: 1">flex1</div>
+      <div style="background-color: antiquewhite; flex: 2">flex2</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: Flex;
+        justify-content: space-between;
+        flex-direction: row;
+      "
+    >
+      <div style="width: 100px; background-color: aquamarine">div1</div>
+      <div style="width: 100px; background-color: lightcoral">flex1</div>
+      <div style="width: 100px; background-color: antiquewhite">flex2</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 30px;
+        height: 70px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: gray;
+        display: Flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+      "
+    >
+      <div style="width: 100px; background-color: aquamarine">div1</div>
+      <div style="width: 100px; background-color: lightcoral">flex1</div>
+      <div style="width: 100px; background-color: antiquewhite">flex2</div>
+    </div>
+  </body>
+</html>

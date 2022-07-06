@@ -1,0 +1,28 @@
+.button {
+    background-color: rgb(120, 69, 163);
+    color: white;
+    font-size: 9px;
+    font-weight: bold;
+    border-width: 1px;
+    border-color: white;
+    border-style: solid;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    transition: background-color 0.15s;
+  }
+  .button:hover {
+    /*box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);*/ 
+    background-color: white;
+    color: rgb(120, 69, 163);
+  }
+  .button:active {
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
