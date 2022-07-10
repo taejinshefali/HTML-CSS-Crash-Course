@@ -1,0 +1,177 @@
+.nav-link {
+  color: #00c4b4;
+  font-weight: 400;
+  font-family: Roboto Slab;
+}
+.nav-link:hover {
+  color: rgb(252, 135, 37);
+}
+.img-overlay-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  height: 100vh;
+}
+.FV {
+  object-fit: cover;
+  justify-content: right;
+  height: 100vh;
+  width: 100%;
+}
+.triangle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  height: 100%;
+}
+
+.heading-text-overlay {
+  font-family: Roboto Slab;
+  color: white;
+  z-index: 10;
+  font-size: 30px;
+  position: absolute;
+  vertical-align: middle;
+  margin: 160px 50px 50px 30px;
+  width: 300px;
+}
+.text-overlay {
+  font-family: Roboto, Arial;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  z-index: 10;
+  position: absolute;
+  vertical-align: middle;
+  margin: 450px 50px 50px 30px;
+  width: 300px;
+}
+.btn-btn,
+.appstore-google,
+.appstore-ios {
+  position: absolute;
+  z-index: 10;
+  margin: 515px 50px 300px 15px;
+  width: 120px;
+  transition: box-shadow 0.15s;
+}
+.appstore-ios {
+  margin-top: 565px;
+  margin-left: -15px;
+}
+.btn-btn:hover,
+.appstore-google:hover,
+.appstore-ios:hover {
+  box-shadow: 0px 0px 5px 5px rgba(256, 256, 256, 0.7);
+}
+.feature {
+  margin: 100px 70px 100px 70px;
+}
+.icons-clock {
+  width: 100px;
+  margin-top: 5px;
+}
+.icons-fresh {
+  width: 90px;
+  margin-top: -1px;
+}
+.icons-scooter {
+  width: 147px;
+}
+.icons-dustbin {
+  width: 92px;
+  margin-top: 5px;
+}
+.card {
+  align-items: center;
+  vertical-align: middle;
+  border: none;
+}
+.card-body {
+  text-align: center;
+  margin-top: 10%;
+  font-family: Roboto, Arial;
+}
+.card-title {
+  font-weight: 700;
+}
+.card-text-muted {
+  font-weight: 300;
+}
+.join {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(229,249,247);
+    vertical-align: middle;
+    align-items: center;
+    justify-content: left;
+}
+.appstore-googlelarge, .appstore-ioslarge {
+    width: 160px;
+}
+#google, #ios {
+    border: none;
+    background-color: rgb(229,249,247);
+}
+.join-text {
+    margin-left: 70px;
+}
+.join-heading {
+    font-family: Roboto Slab;
+    margin-bottom: 20px;
+}
+h3 {
+    font-family: Roboto, Arial;
+    font-weight: 300;
+    color: rgb(167, 161, 161);
+}
+.UI-iphone, .img-fluid {
+    height: 550px;
+    object-fit: contain;
+}
+.iphone {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.largeapp {
+    margin-top: 60px;
+    margin-left: -6px;
+    transition: box-shadow 0.15s;
+}
+.appstore-googlelarge:hover, .appstore-ioslarge:hover {
+    box-shadow: 0px 3px 5px rgba(0,196,180, 0.7);
+}
+.contacts {
+    color: white;
+    font-weight: 300;
+    display: block;
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 70px;
+}
+footer {
+    background-color: #00c4b4; 
+    font-family: Roboto, Arial;
+    text-align: center;
+}
+a {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: middle;   
+}
+.redirect a {
+    margin: 30px;
+    white-space: nowrap;
+}
+.redirect a:hover, .githublink:hover {
+    color: orange;
+}
+
+
